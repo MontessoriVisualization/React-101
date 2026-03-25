@@ -7,9 +7,15 @@ function App() {
 
 
   const increment = () => {
-  setCounter(counter + 1)
+  setCounter((preCounter) => preCounter + 1)
+  setCounter((preCounter) => preCounter + 1)
+  setCounter((preCounter) => preCounter + 1)
+  setCounter((preCounter) => preCounter + 1)
+  setCounter((preCounter) => preCounter + 1)
+
 }
-const decrement = () => {setCounter(counter - 1)
+
+const decrement = () => {setCounter((preCounter) => preCounter - 1)
 }
 const reset = () => {setCounter(0)
 }
