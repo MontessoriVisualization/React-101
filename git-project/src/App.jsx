@@ -1,10 +1,17 @@
-import React from 'react'
-import Weather from './pages/Weather';
+import React from "react";
+import Weather from "./pages/Weather";
 const App = () => {
-  return (
+  return <Weather />;
+};
 
-    <Weather/>
-  )
+export default App;
+
+const obj = {
+
+};
+..obj
+  {name: "pc",
+  age: 30,
+  city: "New York",
+  quality: "1",
 }
-
-export default App
